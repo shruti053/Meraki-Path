@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.dark  { --card: rgba(13,34,64,0.5); --border: #0d2240; }
+.light { --card: #ffffff;            --border: #e2e8f0; }
+
+body { background: #050b14; }
+button:hover { opacity: 0.85; }
